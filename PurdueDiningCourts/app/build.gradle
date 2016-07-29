@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "edu.purdue.sigapp.arjunbagla.purduediningcourts"
+        minSdkVersion 22
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2' // Retrofit is a library by Square which makes resources from servers a lot easier
+    compile 'net.danlew:android.joda:2.8.2' // JodaTime: JAVA library for passing data and times around. Has more features than standard java.util.Date
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    compile 'com.google.code.gson:gson:2.3'
+}
