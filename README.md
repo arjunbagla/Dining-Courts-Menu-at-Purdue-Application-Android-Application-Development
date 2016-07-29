@@ -2,7 +2,7 @@
 The repository contains a `Dining Courts Menu at Purdue Application`, as part of the `Android Application Development` collection that was created as an **independent project**.
 
 The **Dining Courts Menu at Purdue Application** built on **Android** platform:
-* Displays the menu of each day about each meal being served at any hour at Purdue University &mdash; West Lafayette Dining Courts.
+* Displays the menu of each day about each meal being served at any hour at Purdue University &ndash; West Lafayette Dining Courts.
 
 ##Disclaimer
 
